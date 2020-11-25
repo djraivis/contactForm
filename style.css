@@ -1,0 +1,12 @@
+.margin {
+    margin: 0 auto;
+    padding: 20px;
+    background: gray;
+    text-align: center;
+}
+
+form {
+    align-self: center;
+    text-align: center;
+    padding: 30px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="margin">
+    <h2>Send e-mail to someone@example.com</h2>
+</div>
+
+<form method="POST" data-netlify-recaptcha="true" data-netlify="true">
+
+
+Name:<br>
+<input type="text" name="name" placeholder="Name"><br><br>
+
+
+E-mail:<br>
+<input type="text" name="mail" placeholder="E-mail" ><br><br>
+
+
+Comment:<br>
+<input type="text" name="comment" placeholder="Comments" rows="20" size="50"><br><br>
+
+
+<div>
+    <input type="file" name="myfile" placeholder="Upload File" />
+</div><br>
+
+
+<div data-netlify-recaptcha="true"></div>
+
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
