@@ -7,6 +7,14 @@
 
 form {
     align-self: center;
-    text-align: center;
     padding: 30px;
+    width: 50%;
+}
+
+.container {
+  margin: auto;
+  margin-top: 25px;
+  padding: 30px;
+  width: 35%;
+  padding: 10px;
 }
