@@ -18,3 +18,25 @@ form {
   width: 35%;
   padding: 10px;
 }
+
+btn {
+    background-color: red;
+    padding: 6px;
+}
+
+.mybutton {
+    background-color: gray;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.mybutton:hover {
+    cursor: pointer;
+    background-color: rgb(53, 53, 53);
+    box-shadow: gray;
+} 
+
+h2 {
+    color: white;
+}
